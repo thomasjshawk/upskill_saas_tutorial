@@ -25,6 +25,12 @@
         <% end %>
       </div>
       <div class="collapse navbar-collapse" id="main-nav-collapse">
+        <div class="nav navbar-nav navbar-right">
+          <div class="container-fluid">
+            <a href="/users/sign_in" class="btn btn-default navbar-btn">Log In</a>
+            <a href="/users/sign_in" class="btn btn-default navbar-btn">Sign Up</a>
+          </div>
+        </div>
         <ul class="nav navbar-nav navbar-right">
           <li><%= link_to "About", about_path %></li>
           <li><%= link_to "Contact Us", new_contact_path %></li>
